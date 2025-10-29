@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-type StrategyCount = u8;
+pub(crate) type StrategyCount = u8;
 
 pub(crate) struct StrategyConfig {
     count: StrategyCount,

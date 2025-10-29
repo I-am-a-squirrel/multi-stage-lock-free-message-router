@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-type ProcessorsNumber = u8;
+pub(crate) type ProcessorsNumber = u8;
 type ProcessingTimesNs = u16;
 
 pub(crate) struct ProcessorConfig {
